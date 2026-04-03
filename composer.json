@@ -1,0 +1,41 @@
+{
+  "name": "ieegan/bin-packing",
+  "description": "2D bin packing with kerf support for saw blade width calculations",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ibrahim Eegan",
+      "email": "eegan@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "dagmike/bin-packing": "^1.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Egan\\BinPacking\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Egan\\BinPacking\\Tests\\": "tests/"
+    }
+  },
+  "keywords": [
+    "bin-packing",
+    "packing",
+    "algorithm",
+    "2d",
+    "kerf",
+    "saw-blade"
+  ],
+  "homepage": "https://github.com/ieegan/bin-packing",
+  "support": {
+    "issues": "https://github.com/ieegan/bin-packing/issues"
+  }
+}
